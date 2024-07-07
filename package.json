@@ -1,0 +1,11 @@
+{
+  "name": "e-commerce",
+  "version": "2.0.0",
+  "description": "e commerce app with mern ",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Kaushik",
+  "license": "ISC"
+}

@@ -57,7 +57,7 @@ const products=[
         brand: 'ASUS',
         category: 'Electronics',
         price: 25999,
-        countInStock: 8,
+        countInStock: 0,
         rating: 4.9,
         numReviews: 15,
     },
@@ -70,7 +70,7 @@ const products=[
         category: 'Electronics',
         price: 34999,
         countInStock: 5,
-        rating: 4.8,
+        rating: 1,
         numReviews: 18,
     }
     

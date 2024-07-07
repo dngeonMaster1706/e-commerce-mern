@@ -1,6 +1,6 @@
 const products=[
     {
-        _id:'1',
+
         name:'Airpods',
         image:'/images/airpods.jpg',
         description:
@@ -14,7 +14,7 @@ const products=[
 
     },
     {
-        _id: '2',
+
         name: 'Gaming Mouse',
         image: '/images/alexa.jpg',
         description: 'Ergonomic design with customizable buttons and RGB lighting.',
@@ -26,7 +26,7 @@ const products=[
         numReviews: 34,
     },
     {
-        _id: '3',
+
         name: 'Mechanical Keyboard',
         image: '/images/camera.jpg',
         description: 'High-performance mechanical keyboard with programmable keys.',
@@ -38,7 +38,7 @@ const products=[
         numReviews: 45,
     },
     {
-        _id: '4',
+
         name: 'Gaming Headset',
         image: '/images/mouse.jpg',
         description: 'Surround sound gaming headset with noise-canceling microphone.',
@@ -50,7 +50,7 @@ const products=[
         numReviews: 28,
     },
     {
-        _id: '5',
+
         name: '4K Gaming Monitor',
         image: '/images/phone.jpg',
         description: 'Ultra HD 4K monitor with high refresh rate and low response time.',
@@ -62,7 +62,7 @@ const products=[
         numReviews: 15,
     },
     {
-        _id: '6',
+
         name: 'VR Headset',
         image: '/images/playstation.jpg',
         description: 'Immersive virtual reality headset with high-resolution display.',

@@ -2,7 +2,8 @@ import express from 'express'
 import dotenv from 'dotenv';
 dotenv.config();
 import connectDB from './config/db.js';
-
+import {notFound} from '../backend/middleware/errorMiddleware.js';
+import { errorHanlder } from '../backend/middleware/errorMiddleware.js';
 import productRoutes from './routes/productRoutes.js'
 
 connectDB();
@@ -18,7 +19,10 @@ app.get('/',(req,res)=>{
 });
 
 app.use('/api/products',productRoutes)
-//Route to fetch produucts
+
+
+app.use(notFound)
+app.use(errorHanlder)
 
 app.listen(port ,()=>
     console.log(`Server running on port ${port}`))

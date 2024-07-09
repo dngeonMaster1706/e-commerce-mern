@@ -18,8 +18,9 @@ import {protect,admin} from '../middleware/authMiddleware.js'
 
 //endpoint - '/api/user'
 router.route('/').post(registerUser).get(protect,admin,getUsers) 
-router.post('/logout',logoutUser) //log out
 router.post('/auth',authUser) //login
+router.post('/logout',logoutUser) //log out
+
 router.route('/profile').get(protect,getUserProfile).put(protect,updateUserProfile) //get and uuupdate user profile
 
 //to get delete update user by id

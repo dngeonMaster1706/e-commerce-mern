@@ -5,6 +5,7 @@ import {useSelector} from 'react-redux'
 
 
 
+
 const Header = () => {
   const { cartItems }=useSelector((state)=>state.cart);
   console.log(cartItems);
@@ -37,7 +38,7 @@ const Header = () => {
                     </Nav.Link>
                     </LinkContainer>
                     <LinkContainer to='/login'>
-                    <Nav.Link><FaUser/>LogIn</Nav.Link>
+                    <Nav.Link><FaUser/>Sign In</Nav.Link>
                     </LinkContainer>
                     
                 </Nav>

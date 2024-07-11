@@ -7,6 +7,7 @@ import {
     RouterProvider
 } from 'react-router-dom'
 import { Provider } from 'react-redux';
+import PrivateRoute from './components/PrivateRoute';
 import store from './store';
 // import 'bootstrap/dist/css/bootstrap.min.css';
 import './assets/styles/bootstrap.custom.css' 
@@ -28,7 +29,13 @@ const router=createBrowserRouter(
       <Route  path='/cart' element={<CartScreen/>} />
       <Route path='/login' element={<LoginScreen />} />
       <Route path='/register' element={<RegisterScreen/>} />
+      
+
+
+      {/* Private Routes */}
+      <Route path='' element={<PrivateRoute/>}>
       <Route path='/shipping' element={<ShippingScreen/>} />
+      </Route>
     </Route>
   )
 )

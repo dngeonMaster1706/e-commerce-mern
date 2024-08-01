@@ -33,3 +33,28 @@ NerdNook is an e-commerce website where users can buy a variety of products. Thi
    ```sh
    git clone https://github.com/yourusername/nerdnook.git
    cd nerdnook
+2. Install server dependencies:
+   ```sh
+   cd server
+   npm install
+3. Install client dependencies:
+   ```sh
+   cd ../client
+   npm install
+4. Create a .env file in the server directory and add the following environment variables:
+   ```sh
+   MONGO_URI=your_mongo_db_uri
+   JWT_SECRET=your_jwt_secret
+## Usage
+1. Start the server:
+   ```sh
+   cd server
+   npm start
+2. Start the client:
+   ```sh
+   cd ../client
+   npm start
+
+
+
+
